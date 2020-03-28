@@ -7,10 +7,9 @@ import http.cookies
 import os
 import sys
 import codecs
+from _wall import Wall
 
 sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
-
-from _wall import Wall
 wall = Wall()
 
 cookie = http.cookies.SimpleCookie(os.environ.get("HTTP_COOKIE"))
