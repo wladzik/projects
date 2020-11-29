@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Feedback Form{% endblock %}</title>
+</head>
+
+    {% block content %}
+
+    <form method="POST">
+        {% csrf_token %}
+        <input type="text" required placeholder="Your feedback" name="text_f"><br>
+        <button type="submit">Send feedback</button>
+    </form>
+
+    {% endblock %}
+
+</body>
+</html>
