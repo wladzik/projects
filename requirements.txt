@@ -25,7 +25,7 @@ grequests==0.6.0
 idna==2.9
 jdcal==1.4.1
 joblib==0.14.1
-lxml==4.5.0
+lxml==4.6.3
 more-itertools==8.2.0
 multidict==4.7.5
 mysql-connector-python==8.0.20
