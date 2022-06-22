@@ -30,7 +30,7 @@ more-itertools==8.2.0
 multidict==4.7.5
 mysql-connector-python==8.0.20
 mysqlclient==1.4.6
-numpy==1.21.0
+numpy==1.22.0
 openpyxl==3.0.3
 packaging==20.3
 Pillow==9.0.0
